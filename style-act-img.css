@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.main{
+  width: 1350px;
+}
+
+.style-act-img-size{
+  width: 100%;
+}
